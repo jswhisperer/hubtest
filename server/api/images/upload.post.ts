@@ -1,5 +1,5 @@
 export default eventHandler(async (event) => {
-  await requireUserSession(event)
+  // await requireUserSession(event)
 
   // https://hub.nuxt.com/docs/storage/blob#handleupload
   return hubBlob().handleUpload(event, {
